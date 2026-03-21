@@ -22,7 +22,7 @@ void init_uart1(void)
                UART1_MODE_TXRX_ENABLE   //  - Receive and transmit enabled
         );
     UART1_Cmd(ENABLE);
-    //UART1_ITConfig(UART1_IT_RXNE, ENABLE);
+    UART1_ITConfig(UART1_IT_RXNE, ENABLE);
 }
 
 
@@ -35,7 +35,6 @@ PUTCHAR_PROTOTYPE {
     }
     return (c);
 }
-
 /**
   * @brief Retargets the C library scanf function to the USART.
   * @param None
