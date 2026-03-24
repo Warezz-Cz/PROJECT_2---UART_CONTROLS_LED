@@ -17,7 +17,7 @@ Vytvořte program, který pomocí sériového rozhraní ovládá rychlost bliká
 Schéma zapojení
 -----------------------
 
-![schéma zapojení](./docs/UARTSCHEME.png)
+![schéma zapojení](./docs/Snímek%20obrazovky%202026-03-24%20111259.png)
 
 Popis funkce
 -----------------------
